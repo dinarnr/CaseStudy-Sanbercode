@@ -1,0 +1,8 @@
+{
+  "validEmployeeName": "Peter Mac Anderson",
+  "validEmployeeInput": "Peter",
+  "invalidEmployeeName": "Dinar",
+  "jobTitle": "Chief Financial Officer",
+  "anotherJobTitle": "QA Engineer",
+  "location": "New York Sales Office"
+}
