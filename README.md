@@ -109,12 +109,12 @@ npx cypress run --spec "ProjectAkhir/**/*.cy.js"
 
 1. Login
     - **Positive Case**
-    * Login menggunakan credential valid (Admin / admin123)
+        - Login menggunakan credential valid (Admin / admin123)
     - **Negative Case**
-    * Login menggunakan username atau password yang salah
+        - Login menggunakan username atau password yang salah
     - **Validasi**
-    * Memastikan error message muncul
-    * Memastikan redirect ke dashboard berhasil
+        - Memastikan error message muncul
+        - Memastikan redirect ke dashboard berhasil
 
 2. Forgot Password
     * Membuka halaman Forgot your password?
