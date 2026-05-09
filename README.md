@@ -9,9 +9,9 @@ Repositori ini berisi kumpulan tugas dan proyek akhir dari program pelatihan **Q
 - Memverifikasi fungsi login menggunakan credential valid dan invalid
 - Memastikan fitur Forgot Password menampilkan pesan sukses dan kembali ke halaman login
 - Menguji fitur Directory:
-    Search employee
-    Reset filter
-    No Results Found
+    - Search employee
+    - Reset filter
+    - No Results Found
 - Memvalidasi kesesuaian data UI dengan response API menggunakan Cypress Intercept
 
 ---
@@ -108,11 +108,11 @@ npx cypress run --spec "ProjectAkhir/**/*.cy.js"
 ## 🧩 Fitur yang Diuji
 
 1. Login
-    **Positive Case**
+    - **Positive Case**
     * Login menggunakan credential valid (Admin / admin123)
-    **Negative Case**
+    - **Negative Case**
     * Login menggunakan username atau password yang salah
-    **Validasi**
+    - **Validasi**
     * Memastikan error message muncul
     * Memastikan redirect ke dashboard berhasil
 
